@@ -1,0 +1,60 @@
+body{
+background:url("background.jpg");
+}
+.box{
+  height: 345px;
+  width: 260px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 626px;
+  margin-top: 150px;
+  background: #606060;
+
+}
+.calcbox{
+  width: 250px;
+  height: 308px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 3px;
+  margin-top:13px;
+  background: url("calc background.jpg");
+}
+.display{
+  height:38px;
+  width: 237px;
+  border: 1px solid #595959;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background :#DDFCFF;
+}
+
+#number{
+  border: none;
+  background: transparent;
+
+}
+
+button{
+  margin-top: 7px;
+  margin-left: 15px;
+  background: url("button background.jpg");
+  font-size: 24px;
+  text-align: center;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 9px;
+}
+button:hover{
+background: none;
+background-color: #ffff33;
+display: flex;
+box-shadow: 3px 3px grey;
+}
+.refresh{
+  margin-left: 700px;
+}

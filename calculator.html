@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>
+Online Calculator
+</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link href="style file.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <h3 id="heading" align="center">Please enter first number and then press equal</h3>
+<div class="box">
+ <div class="calcbox">
+   <div class="display">
+     <form >
+
+     <input id="number" type="text" name="num1" >
+
+
+
+   </form>
+   </div>
+   <table rows="4" cols="4">
+     <tr>
+       <td><button id="seven" onclick="getdata(7)">7</button></td>
+       <td><button id="eight" onclick="getdata(8)">8</button></td>
+       <td><button id="nine" onclick="getdata(9)">9</button></td>
+       <td><button id="divide" onclick="operation('/')">/</button></td>
+     </tr>
+     <tr>
+       <td><button id="four" onclick="getdata(4)">4</button></td>
+       <td><button id="five" onclick="getdata(5)">5</button></td>
+       <td><button id="six" onclick="getdata(6)">6</button></td>
+       <td><button id="multiply" onclick="operation('*')">*</button></td>
+     </tr>
+     <tr>
+       <td><button id="three" onclick="getdata(3)">3</button></td>
+       <td><button id="two" onclick="getdata(2)">2</button></td>
+       <td><button id="one" onclick="getdata(1)">1</button></td>
+       <td><button id="subtract"onclick="operation('-')">-</button></td>
+     </tr>
+     <tr>
+       <td><button id="zero" onclick="getdata(0)">0</button></td>
+       <td><button id="decimal">.</button></td>
+       <td><button id="equal" type="button" onclick="equal()" >=</button></td>
+       <td><button id="add"  onclick="operation('+')">+</button></td>
+     </tr>
+   </table>
+ </div>
+</div>
+<button align="center" class="refresh" onclick="refresh()">Refresh</button>
+<h5>First Number=<pre id="demo"> </pre></h5>
+<h5>Second Number=<pre id="demo1"> </pre></h5>
+
+</body>
+<script src="working.js">
+</script>
+</html>
